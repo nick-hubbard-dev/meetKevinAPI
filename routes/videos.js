@@ -52,6 +52,14 @@ const latestVideos = [
 ];
 
 // all routes here are starting with /videos
+
+router.get('/', (req,res) => {
+    res.send({
+        latest: latestVideos,
+        mostViewed: mostViewedVideos,
+        features: featuredVideos
+    });
+});
 router.get('/latest', (req, res) => {
     res.send(latestVideos);
 });
