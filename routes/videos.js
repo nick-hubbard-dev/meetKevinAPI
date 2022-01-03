@@ -81,7 +81,7 @@ const latestVideos = [
         id: "9W_bAvuPg2I",
         title: "The Omicron Covid &quot;Flu&quot; Nightmare.",
         thumbnail: "https://i.ytimg.com/vi/9W_bAvuPg2I/hqdefault.jpg"
-    };
+    }];
 
 // all routes here are starting with /videos
 
