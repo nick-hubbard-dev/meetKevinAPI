@@ -5,6 +5,7 @@ const router = express.Router();
 const featuredVideos = [
     {
         title: "Hate this... market is so fake...",
+        id: "j-_AzuX66uw",
         thumbnail: "https://i.ytimg.com/vi/j-_AzuX66uw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAVEuhcOBlvPHc4WZ11MVS3ys-q6Q",
         views: 1232
     }
@@ -13,11 +14,13 @@ const featuredVideos = [
 const mostViewedVideos = [
     {
         title: "Mixed Red Bag",
+        id: "p1984nDapfc",
         thumbnail: "https://i.ytimg.com/vi/p1984nDapfc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCyLUmewlgzZnyL7lm23DV2Dz01Jw",
         views: 239482
     },
     {
         title: "Nancy Pelosi's New YOLO Stock Trades [JUST OUT]",
+        id: "5nSCM3SFzss",
         thumbnail: "https://i.ytimg.com/vi/5nSCM3SFzss/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCkDZEM1rnOSO7be6g3yxQGZSYTLQ",
         views: 12983
     }
@@ -26,26 +29,31 @@ const mostViewedVideos = [
 const latestVideos = [
     {
         title: "Hate this... market is so fake...",
+        id: "j-_AzuX66uw",
         thumbnail: "https://i.ytimg.com/vi/j-_AzuX66uw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAVEuhcOBlvPHc4WZ11MVS3ys-q6Q",
         views: 1232
     },
     {
         title: "Mixed Red Bag",
+        id: "p1984nDapfc",
         thumbnail: "https://i.ytimg.com/vi/p1984nDapfc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCyLUmewlgzZnyL7lm23DV2Dz01Jw",
         views: 239482
     },
     {
         title: "Nancy Pelosi's New YOLO Stock Trades [JUST OUT]",
+        id: "5nSCM3SFzss",
         thumbnail: "https://i.ytimg.com/vi/5nSCM3SFzss/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCkDZEM1rnOSO7be6g3yxQGZSYTLQ",
         views: 12983
     },
     {
         title: "Elon Musk JUST said a RECESSION is Coming...",
+        id: "sowjtGnYDuY",
         thumbnail: "https://i.ytimg.com/vi/sowjtGnYDuY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJXcDD_mF1stpJorMRNoFPx3TxRg",
         views: 834938
     },
     {
         title: "S&P Falling | Another FAKE Rally?",
+        id: "cL9DhcPP76o",
         thumbnail: "https://i.ytimg.com/vi/cL9DhcPP76o/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBSzfNBFeIGiSgzviLKXPXWi2bazw",
         views: 100000
     }
